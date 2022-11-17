@@ -1,0 +1,64 @@
+body{
+  background-color: #B6E2A1;
+}
+
+div { width: 100%; height: 100%; min-width: 1000px; min-height: 1000px; }
+body { width: 100%; height: 100%; min-width: 1000px; min-height: 1000px; }
+
+.Steven{
+  position: relative;
+  top: -5px;
+  left: -400px;
+  width: 150px;
+}
+
+.Andrew{
+  position: relative;
+  top: -5px;
+  left: -30px;
+  width: 125px;
+}
+
+.John{
+  position: relative;
+  top: -5px;
+  left: 10px;
+  width: 119px;
+}
+
+.Kevin{
+  position: relative;
+  top: -5px;
+  right: -400px;
+  width: 150px;
+}
+
+
+body{
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  border: solid;
+  border-width: 10px;
+  border-color: red;
+
+
+}
+
+.fade {
+  background-color: #DB1F48;
+  color: #fff;
+  transition: background-color 1s;
+}
+
+.fade:hover {
+  background-color: #004369;
+}
+
+.fade:focus,
+.fade:active {
+  background-color: black;
+  transition: none;
+}
